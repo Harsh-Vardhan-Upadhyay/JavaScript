@@ -12,7 +12,10 @@ accountCity = "Jaipur"
 
 console.table([accountId,accountEmail,accountPassword,accountCity])
 
+
+//Changing values and adding new variable without any value and it shows undifined 
 accountEmail = "harsh@gmail.com"
 accountCity = "hyderabad"
+let accountState
 
-console.table([accountId,accountEmail,accountPassword,accountCity])
+console.table([accountId,accountEmail,accountPassword,accountCity,accountState])
