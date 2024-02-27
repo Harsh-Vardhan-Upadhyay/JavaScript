@@ -56,3 +56,34 @@ let stringTest = String(33)
 console.log(stringTest);
 console.log(typeof(stringTest));
 
+
+
+
+// ********************  Operations  ********************
+
+//converting number into negative value
+let value = 33
+let negValue = -value
+console.log(negValue);
+
+//Basic operations in js
+console.log(2+2);
+console.log(2-2);
+console.log(2*2);
+console.log(2/2);
+console.log(2**3); //will give the power of the number
+console.log(2%2); //will give the reminder of the operation
+
+//STING ADDITION
+let str1 = "Harsh"
+let str2 = " Vardhan"
+console.log(str1+str2);
+
+
+console.log("1"+2);
+console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log(3+4*10/2);
+
+
