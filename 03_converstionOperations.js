@@ -36,3 +36,23 @@ console.log(falseTest);
 
 console.log("This table is output of above tests")
 console.table([declareNumber,nanTest,nullTest,undefinedTest,trueTest,falseTest])
+
+
+// We learn that numbers are easy to convert 
+//But when we declare string into it then it will give a output of NaN that is not a number 
+
+//to convert number into boolean
+let conbool = Boolean(1)
+console.log(conbool);
+console.log(typeof conbool);
+
+let conbool1 = Boolean(0)
+console.log(conbool1);
+console.log(typeof conbool1);
+
+
+//In the same way we can convert them into string
+let stringTest = String(33)
+console.log(stringTest);
+console.log(typeof(stringTest));
+
