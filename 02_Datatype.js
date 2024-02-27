@@ -18,4 +18,4 @@ let age = 20 // this is a integer
 //symbol = unique
 
 console.log(typeof age)
-// this is used to know what kind of a datatype it is
+// this is used to know what kind of a datatype it is being used 
