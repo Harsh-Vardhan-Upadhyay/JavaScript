@@ -1,7 +1,9 @@
 // #Primitive 
+// They are predefined by the language
 // There are 7 types of primitive datatype they are call by value Strings, Number, Boolean, Null, Undefined, Symbols, BigInt
 
 // #Reference (Non-Primitive)
+// They are not predefined by the language
 //Array, Objects, Functions
 
 
@@ -31,3 +33,7 @@ const myfunction = function(){
 }
 
 myfunction()
+
+//--> Data type of any non primitive is always returned as a object 
+
+

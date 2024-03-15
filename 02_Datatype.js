@@ -32,6 +32,9 @@ console.log(id == anotherId)
 //As you can see even though the values are same we still have this statement as false as when we use symbol they are unique
 
 
+
+
+//To declare a bigint we just add n at the end of the number
 const bignumber = (948710948702935n);
 console.log(typeof bignumber)
 
