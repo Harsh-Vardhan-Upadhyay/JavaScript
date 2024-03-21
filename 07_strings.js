@@ -34,3 +34,5 @@ const  url = "https://www.youtube.com/watch?v=fozwNnFunlo&list=PLu71SKxNbfoBuX3f
 console.log(url.replace('=','9'))
 console.log(url.replaceAll('=','9'))
 
+console.log(url.includes('www')) // this include is used to check if the charactor excits in the string or not
+
