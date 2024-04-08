@@ -17,3 +17,15 @@ console.log(otherNumber.toPrecision(1))// this showes the output in exponense th
 
 const hundreds = 10000000;
 console.log(hundreds.toLocaleString('en-IN'))
+
+
+
+
+
+
+
+
+//*********************************MATHS*********************************
+
+
+
