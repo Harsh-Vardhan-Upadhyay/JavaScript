@@ -29,3 +29,19 @@ console.log(hundreds.toLocaleString('en-IN'))
 
 
 
+console.log(Math)
+console.log(Math.abs(-4));// This is used to remove the negative value and make it positive
+console.log(Math.round(4.6))// This is used to round off the value 
+console.log(Math.ceil(4.2))// This will round off the value to the higest one 
+console.log(Math.floor(4.9))// This will round off to the lower value 
+console.log(Math.min(4,3,5))// This will give you the minimum value among these
+console.log(Math.max(5,7,3))// This will give the maximum value amongs the value given
+
+console.log(Math.random());// This will give a Random value between 0 and 1 in decimals
+console.log(Math.random()*10); //As the value are between 0 to 1 hence we will get the next decimal as output 
+console.log((Math.random()*10)+1); // This will help you not have the value as 0 in random numbers 
+
+const min = 22;
+const max = 30;
+
+console.log(Math.floor(Math.random() * (max - min + 1) + min)) //This helps you give random numbers between what you need like setting minimum and maximum values 
