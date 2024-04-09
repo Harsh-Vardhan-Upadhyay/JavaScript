@@ -31,7 +31,7 @@ console.log(typeof(newarray));
 // Slice, Splice 
 
 console.log("A",array)
-const myna = array.slice(1,3)
+const myna = array.slice(1,3)// 
 
 console.log(myna)
 console.log("B",array)
@@ -39,3 +39,5 @@ console.log("B",array)
 const myna1 = array.splice(1,3)
 console.log("C ", array)
 console.log(myna1)
+
+console.log(array);
