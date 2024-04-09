@@ -28,4 +28,14 @@ console.log(user.Name)
 console.log(userTwo.Name)
 
 // By this we understand unlike stack when a change is made in heap the value is stored in same location and the value changes if it is changed later in the code 
- //
+ 
+
+
+
+// ********************Arrays part - 2********************
+
+const heros = ["ironman","thor","spiderman","doctor strange"]
+const dc = ["superman","flash","batman"]
+
+heros.push(dc)
+console.log(heros)

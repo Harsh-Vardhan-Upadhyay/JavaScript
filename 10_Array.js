@@ -41,3 +41,36 @@ console.log("C ", array)
 console.log(myna1)
 
 console.log(array);
+
+
+
+// ********************Arrays part - 2********************
+
+const heros = ["ironman","thor","spiderman","doctor strange"]
+const dc = ["superman","flash","batman"]
+
+// heros.push(dc)
+// console.log(heros) // this is not a good method to join to strings 
+
+
+const allHeros = heros.concat(dc)
+console.log(allHeros) // This help you to combine 2 arrays by making a new array and storing those values of array in it 
+
+
+const all_newheros = [...heros,...dc]
+console.log(all_newheros) // This does the same thing as concat but is better as it can help merge more than 2 arrays 
+
+
+const array6 = [1,2,3,[4,5],6,7,[8,[9,0]]]
+const simplearray6 = array6.flat(Infinity)
+console.log(simplearray6)// This is used to make a complex array in a simple array that is if a array is have more than one array in an array then you can make it a single array using flat 
+
+console.log(Array.isArray("harsh"))
+console.log(Array.from("harsh"))
+console.log(Array.from({name : "harsh"})) // if it does not know what to make array of it will always print a empty array as an output
+
+let score = 100;
+let score1 = 200;
+let score2 = 300;
+
+console.log(Array.of(score,score1,score2))
