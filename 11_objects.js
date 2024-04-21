@@ -36,3 +36,39 @@ jsUser.greeting2 = function(){
 
 console.log(jsUser.greeting())
 console.log(jsUser.greeting2())
+
+
+
+const tinderuser = new Object()
+
+tinderuser.id = "123"
+tinderuser.name = "sam"
+tinderuser.loggedin = false
+
+console.log(tinderuser)
+
+const regularuser = {
+    email: "some@gmail.com",
+    fullname:{
+        firstname:"harsh",
+        lastname:"upadhyay"
+    }
+
+}
+
+console.log(regularuser.fullname)
+console.log(regularuser.fullname.firstname)
+
+
+const obj1 = {1: "a", 2: "b"}
+const obj2 = {3: "a", 4: "b"}
+
+
+const obj3 = {obj1,obj2}
+const obj4 = Object.assign({},obj1,obj2)
+console.log(obj4)
+// we use {} so that we can use it as target to store obj1 and obj2 because if we dont use that all the values will be stored in obj1
+
+
+const obj5 ={...obj1,...obj2}
+console.log(obj5)
