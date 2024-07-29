@@ -32,10 +32,3 @@ console.log(userTwo.Name)
 
 
 
-// ********************Arrays part - 2********************
-
-const heros = ["ironman","thor","spiderman","doctor strange"]
-const dc = ["superman","flash","batman"]
-
-heros.push(dc)
-console.log(heros)

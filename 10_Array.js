@@ -75,4 +75,3 @@ let score2 = 300;
 
 console.log(Array.of(score,score1,score2))// This helps you convert individual values in a single array 
 
-const obj5 ={...obj1,...obj2}

@@ -46,3 +46,4 @@ const max = 30;
 
 console.log(Math.floor(Math.random() * (max - min + 1) + min)) //This helps you give random numbers between what you need like setting minimum and maximum values 
 
+//
