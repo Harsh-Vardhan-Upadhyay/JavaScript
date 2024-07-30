@@ -36,3 +36,7 @@ console.log(url.replaceAll('=','9'))
 
 console.log(url.includes('www')) // this include is used to check if the charactor excits in the string or not
 
+//Template Literals 
+
+let sentence = `This is a template literal`;
+console.log (sentence);
