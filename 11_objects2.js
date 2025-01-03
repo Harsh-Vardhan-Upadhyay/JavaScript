@@ -11,4 +11,3 @@ const { courseName: name } = course; // Extracts the 'courseName' property and a
 console.log(name); // Outputs: Hindi
 
 
-
