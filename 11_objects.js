@@ -60,11 +60,16 @@ console.log(regularuser.fullname)
 console.log(regularuser.fullname.firstname)
 
 
+// Extracts keys, values, and key-value pairs from the object 'tinderuser' and stores them in arrays.
+console.log(Object.keys(tinderuser));   // Returns an array of all keys in the 'tinderuser' object
+console.log(Object.values(tinderuser)); // Returns an array of all values in the 'tinderuser' object
+console.log(Object.entries(tinderuser)); // Returns an array of [key, value] pairs from the 'tinderuser' object
+
 const obj1 = {1: "a", 2: "b"}
 const obj2 = {3: "a", 4: "b"}
 
 
-const obj3 = {obj1,obj2}
+const obj3 = {obj1,obj2} // This is saving 2 objects inside of a object here 
 const obj4 = Object.assign({},obj1,obj2)
 console.log(obj4)
 // we use {} so that we can use it as target to store obj1 and obj2 because if we dont use that all the values will be stored in obj1
