@@ -44,3 +44,19 @@ function one() {
 }
 
 one(); // Invokes the function in the global context.
+
+
+
+const chai = () => {
+    let userName = "Harsh Vardhan"
+    console.log(this.userName)
+}
+
+chai()
+
+
+const addTwo = (num1,num2) => {
+    return num1 + num2
+}
+
+console.log(addTwo(1,2))
