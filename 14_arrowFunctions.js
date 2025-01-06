@@ -47,16 +47,32 @@ one(); // Invokes the function in the global context.
 
 
 
+// Define an arrow function named `chai`
 const chai = () => {
-    let userName = "Harsh Vardhan"
-    console.log(this.userName)
-}
+    // Declare a local variable `userName` and assign it the value "Harsh Vardhan"
+    let userName = "Harsh Vardhan";
 
-chai()
+    // Attempt to log `this.userName` to the console
+    // NOTE: In arrow functions, `this` does NOT refer to the function itself or its scope.
+    // Instead, it refers to the `this` value of the enclosing lexical scope.
+    // Since there is no `userName` in the global `this` (or `window` in browsers), this will log `undefined`.
+    console.log(this.userName);
+};
+
+// Invoke the `chai` function
+chai(); 
+// Output: `undefined`
+// Explanation: `this` inside the arrow function refers to the outer (global) context, 
+// and there is no `userName` defined as a property of the global object (`this`).
 
 
-const addTwo = (num1,num2) => {
-    return num1 + num2
-}
+// Define an arrow function `addTwo` that takes two parameters `num1` and `num2`
+const addTwo = (num1, num2) => {
+    // Return the sum of `num1` and `num2`
+    return num1 + num2;
+};
 
-console.log(addTwo(1,2))
+// Invoke the `addTwo` function with arguments `1` and `2`
+console.log(addTwo(1, 2)); 
+// Output: `3`
+// Explanation: The function computes 1 + 2 and returns 3, which is logged to the console.
