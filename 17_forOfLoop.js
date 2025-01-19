@@ -10,6 +10,7 @@ for (const num of arr) {
 const map = new Map()
 map.set('In', "India")
 map.set('In', "India")
+map.set('US', "United nations")
 
 
 console.log(map)
